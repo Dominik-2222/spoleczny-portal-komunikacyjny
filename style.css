@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background: rgb(44, 197, 56);
+
+}
+
+#srodek {
+    margin-top: 120px;
+    padding: 20px;
+}
+
+#pole_wyszukiwania {
+
+    width: max-content;
+    float: right;
+
+
+    height: max-content;
+    background-color: white;
+    background-color: white;
+    color: black;
+    width: max-content;
+    float: right;
+    position: relative;
+    padding: 53.5px;
+}
+
+#_1 {
+    font-size: 30px;
+    width: 50%;
+
+    float: right;
+}
+
+#_2 {
+    float: right;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+
+
+}
+
+#pasek {
+
+    height: auto;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    color: white;
+    font-size: 40px;
+    z-index: 8;
+    margin-top: -120px;
+
+}
+
+#menu {
+    background-color: white;
+    color: black;
+    width: max-content;
+    float: right;
+    position: relative;
+    padding: 50px;
+    text-decoration: none;
+
+}
+
+
+#menu:hover {
+    background-color: green;
+    color: white;
+
+}
+
+#_2:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#title {
+    background-color: rgb(13, 140, 24);
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 40px;
+    color: white;
+    outline-color: black;
+    outline-width: 10px;
+    outline-style: double;
+    position: relative;
+    text-align: justify;
+}
+
+table {
+    width: 100%;
+    margin-top: 50px;
+    float: right;
+}
+
+tr {
+
+    outline-style: double;
+    padding: 20px;
+    width: 100%;
+
+}
+
+td {
+    outline-color: black;
+    outline-width: 2px;
+    outline-style: groove;
+font-family:sans-serif;
+
+    padding: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,213 @@
+html,
+body {
+    ::-webkit-scrollbar {
+        width: 10px;
+        background: rgb(0, 0, 0);
+    }
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #52c234;
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ff0000;
+        border-radius: 10px;
+    }
+
+    .contact {margin-left: 15%;
+        margin-right: 15%;
+        border-radius: 100px;
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
+ background-color: rgba(0, 0, 0, 0.63);      
+        float: left;
+        
+        width: 50%;
+margin-top: 100px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        .feedback {
+            float: right;
+            width: 100%;
+            font-size: 25px;
+            .contact_title {
+                text-align: left;
+                width: 100%;
+                .h1 {
+                    color: #fff;
+                    font-size: 25px;
+                    text-transform: uppercase;
+                    text-shadow: rgba(255, 255, 255, 0.5);
+                    span {
+                        color: #94cf14;
+                        font-size: 25px;
+                        text-shadow: rgba(148, 207, 20, 0.5);
+                    }
+                }
+            }
+            form {
+                margin-top: 8%;
+                width: 100%;
+                .input1 {
+                    width: 100%;
+                    font-size: 15px;
+                    background-color: transparent;
+                    width: 100%;
+                    color: gray;
+                    input {
+                        border-radius: 10px 10px 10px 10px;
+                        border-width: 5px;
+                        border-color: grey;
+                        border-style: groove;
+                        font-size: 15px;
+                        background-color: transparent;
+                        width: 100%;
+                        color: white;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                    }
+                    input:hover {
+                        background-color: rgba(0, 0, 0, 0.562);
+                        color: white;
+                        font-size: 24px;
+                        border-top: none;
+                        -webkit-backdrop-filter: blur(10px);
+                        backdrop-filter: blur(3px);
+                        border-bottom: none;
+                        border-radius: 0px;
+                    }
+                }
+                .input2 {
+                    margin-top: 5%;
+                    width: 48%;
+                    float: left;
+                    font-size: 15px;
+                    background-color: transparent;
+                    color: white;
+                    input {
+                        border-radius: 10px 10px 10px 10px;
+                        border-width: 5px;
+                        border-color: grey;
+                        border-style: groove;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                        font-size: 15px;
+                        background-color: transparent;
+                        width: 100%;
+                        color: white;
+                    }
+                    input:hover {
+                        background-color: rgba(0, 0, 0, 0.562);
+                        color: white;
+                        font-size: 24px;
+                        border-top: none;
+                        -webkit-backdrop-filter: blur(10px);
+                        backdrop-filter: blur(3px);
+                        border-bottom: none;
+                        border-radius: 0px;
+                    }
+                }
+                .input3 {
+                    margin-top: 5%;
+                    width: 48%;
+                    position: relative;
+                    font-size: 15px;
+                    background-color: transparent;
+                    color: white;
+                    float: right;
+                    input {
+                        border-radius: 10px 10px 10px 10px;
+                        border-width: 5px;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                        border-color: grey;
+                        border-style: groove;
+                        font-size: 15px;
+                        background-color: transparent;
+                        width: 100%;
+                        color: white;
+                    }
+                    input:hover {
+                        background-color: rgba(0, 0, 0, 0.562);
+                        color: white;
+                        font-size: 24px;
+                        border-top: none;
+                        -webkit-backdrop-filter: blur(10px);
+                        backdrop-filter: blur(3px);
+                        border-bottom: none;
+                        border-radius: 0px;
+                    }
+                }
+                .message {
+                    margin-top: 5%;
+                    float: left;
+                    width: 100%;
+                    height: 300px;
+                    margin-bottom: 10%;
+                    textarea {
+                        line-height: 200%;
+                        border-radius: 10px 10px 10px 10px;
+                        border-width: 5px;
+                        padding: 2%;
+                        border-color: grey;
+                        border-style: groove;
+                        color: white;
+                        background-color: transparent;
+                        width: 97%;
+                        font-size: 15px;
+                        height: 100%;
+                        float: left;
+                        cursor: url("/sources/cursors/mapa.gif"), auto;
+                    }
+                    textarea:hover {
+                        background-color: rgba(0, 0, 0, 0.562);
+                        color: white;
+                        font-size: 24px;
+                        border-top: none;
+                        -webkit-backdrop-filter: blur(10px);
+                        backdrop-filter: blur(3px);
+                        border-bottom: none;
+                        border-radius: 0px;
+                    }
+                }
+                .sumbit {
+                    width: max-content;
+                    input {
+                        background: linear-gradient(17deg, #000000 0%, #94cf14 100%);
+                        padding: 15px;
+                        font-size: 15px;
+                        color: white;
+                        border: none;
+                        border-radius: 20px;
+                    }
+                    input {
+                        background-image: linear-gradient(to right, #1f1c2c 0%, #928dab 51%, #1f1c2c 100%);
+                    }
+                    input {
+                        margin: 10px;
+                        padding: 15px 45px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        transition: 0.5s;
+                        background-size: 200% auto;
+                        color: white;
+                        box-shadow: 0 0 20px #eee;
+                        border-radius: 10px;
+                        display: block;
+                    }
+                    input:hover {
+                        background-position: right center;
+                        color: #fff;
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
